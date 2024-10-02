@@ -2,7 +2,7 @@
 ```bash
 npm init playwright@latest
 
-**dotenv Package Installation Command**  
+**dotenv Package Installation Command**    
 ```bash
 npm install dotenv --save
 
