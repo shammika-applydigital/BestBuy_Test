@@ -1,15 +1,17 @@
-**Install Playwright & Select Configurations**  
-```bash
-npm init playwright@latest
+# How to Use This Project
 
-**dotenv Package Installation Command**    
-```bash
-npm install dotenv --save
+## **Installation**
 
-**csv-parse Package Installation Command**  
-```bash
-npm install csv-parse
+1. **Install Playwright & Select Configurations:**
+    ```bash
+    npm install dotenv --save
+2. **dotenv Package Installation Command**
+    ```bash
+    npm install dotenv --save
+3. **csv-parse Package Installation Command**
+    ```bash
+    npm install csv-parse
+4. **Run Tests**
+    ```bash
+    npx playwright test
 
-**Run Tests**
-```bash
-npx playwright test
