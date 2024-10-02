@@ -1,0 +1,17 @@
+{
+  "productTitle": "h1",
+  "priceButton": {
+    "type": "role",
+    "role": "button",
+    "name": "Price"
+  },
+  "priceFilterOption": {
+    "type": "label",
+    "label": "$250 - $499.99"
+  },
+  "addToCartButton": "//div[@class=' addToCartContainer_20u-G']/descendant::button[contains(@class, 'addToCartButton')][1]",
+  "cartIcon": "a#cart-icon",
+  "quantityInput": "input[name='quantity']",
+  "cartItemTitle": "div.cart-item-title",
+  "removeButton": "button.remove"
+}

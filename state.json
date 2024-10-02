@@ -1,0 +1,745 @@
+{
+  "cookies": [
+    {
+      "name": "f26b4547f055e3f704deba998528f171",
+      "value": "9b7b9ea1df06f6f1ac7a143db3c8bb51",
+      "domain": "www.bestbuy.ca",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "s_token",
+      "value": "69951eb8392911005b9efd662b000000d59a0000",
+      "domain": "www.bestbuy.ca",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "search_abtesting_personalization_delta",
+      "value": "B0",
+      "domain": "www.bestbuy.ca",
+      "path": "/",
+      "expires": 1735673178.981433,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_mi",
+      "value": "D3EC7D801F5EE63038D2E54B0295A7FC~YAAQaZUeuIgoJUuSAQAAo5OyThk+u9cmqfelwYSiRqIxI2UTtKlfrob14JrohBVtqdJc0+3CrFm93s/kz63WXnRrPTNf5aWNNruf0lc7j4fKvNDclfQ4ymjI89SsmcEbR8IA4u15r1cMLiq9PDEU/rO/e1oK5Ial9mhy9H24sQ89KZ9TBCRpwda2LievjXhVawvbLSAyXu5T+i8GKDUSgyms6H0pXkWOQX4DcJAiKWxQY4mFSyok9jcOAPgdODAUZ4zAieFPxLViXsII4Fwvcl0Nzbgjiu6zI98hDkIpAdZDlQHUVRQOGqRRSqoOjo9eldJO~1",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1727904378.981475,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_sv",
+      "value": "5EE329D451C37B63967AE184485BB620~YAAQaZUeuIkoJUuSAQAAo5OyThkMf7Na5dpoKFaXrQZ+Upjzt4PJS8qD3A9QS67100IP3vpQLTHUAX8B748y8gAQl4cGFiTMYdOWZmOPld4vNtMFz0lpZXBOWGOheYqCHSFl6XE4+7NpEe9hK2I6xpLhIblMpWi8CNZaE1z1dGzhQsHagjVPWWLFt+xQC606Z5m1xblZmsge/NIdoSKojOs5cQNggHZ0J3ytVazJUqO7xzYjGhYkYg4EcFlL+wDx~1",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1727904378.9815,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_sz",
+      "value": "5DC375AD89B89EE3B4E96F1C7772831B~YAAQaZUeuCwpJUuSAQAAoZWyThnNrLK+kkfZMoqS3qVx3EYumC3FYg9U7aO5945/dfcrsXRvzQ/Z1CwIGWTt5v9TYTAydiMr3yBDsQVQeXX33XQp9XrNok+GVNTX3whnru6yeU2ct3vnDV44RNq4pftDmL+Y0XcrtGGe7+y2wSugoY5kDClwZxrcqzkDoazHva+Nxd0VLbjQ9kSXsw7r65d4yykgXegJUjRKan9+uIG2912vxCBbtsYCkt6FQXzM8Ae8Daud8/y9UZfUtLsNWTdoZ28MC5nKiLJfZE1wpC5sV3FR3z4cuw5q7Q7XT3jfgSgZ8i3o/P4HA7eMaZgk55cxjPV7f27FmkqCKlZMp01xFU/koJxpryNncJWAmIYNgP4CnrAGPnEFVx3I52KXiRiX4j5rpF5iqVNVCR4blFtfctLJJw==~3556161~3749442",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1727911578.510364,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "dtCookie",
+      "value": "v_4_srv_-2D39_sn_ACCLF5V72OK3DO39F04RFCNFMKD5QR1C",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "rxVisitor",
+      "value": "1727897179824M8O43N6T57O5884Q9M41K8QASHGTUQL5",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "dtSa",
+      "value": "-",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ak_bmsc",
+      "value": "8D3A43D25F51458B6939FBB7A153FFB7~000000000000000000000000000000~YAAQaZUeuJwpJUuSAQAA+JayThmg65wYGBT9ZCPkf5e45RRUGYf8kAYHv8jAl1A2XPIA83GHHbwnR1EjOpgChci6vhKHkNawvLKqQNziydp0bjV6AaMjaGk1fRDzbE6EhFlyBse9F2FhfeTQQ2rGAyMH2HpM70rmkx4wy9+lhDuDzrCH+dI4IGKcVT2V1FOwNpEmJXq42N18YUUhrMUO/bF3tblPectzoRJXr367kvVEEhConwfzW3K5xUYolqCFUaqy11Ma9SQbRvECwjaIpF6IqKgFmGBmAfVCjaPWLCTpht4xqFkzCXBg3U386Th5CoyENMkPUDAa/nXnMfG8MvXYdenMKL+UYuZz8HtQwFttKEwxayKxiF44iVmUNTNLlWD9wmm7wLq0Yc0IbiHorXw/NDP1kTyVOkfYmNitRqDbZ1+visG0868MxuB997S1lPukvTZCdS6tfQFVtH9bY4hqw2sNYGZ6o1MmC9CBfoUPMpyKBZkTZXTEbPx6GTu7y5WBaiT4Z9YpigYYRjntKSKY8OYa",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1727904378.839716,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "criteoVisitorId",
+      "value": "536df9a4-c3cf-4132-8959-eb963f9fa104",
+      "domain": "www.bestbuy.ca",
+      "path": "/",
+      "expires": 1759433179,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "YSC",
+      "value": "z2Xq7wRIf1Y",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "value": "F7FzRsIR4iA",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1743449179.914925,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "value": "CgJDQRIEGgAgSA%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1743449179.91495,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "enabled",
+      "value": "1",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ReturnUrl",
+      "value": "https://www.bestbuy.ca/",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "surveyOptOut",
+      "value": "1",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_inv",
+      "value": "0",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1727898983,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "demdex",
+      "value": "50400580197269052040555902741777267935",
+      "domain": ".demdex.net",
+      "path": "/",
+      "expires": 1743449180.860324,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__gads",
+      "value": "ID=644feb483c669363:T=1727897180:RT=1727897180:S=ALNI_MaMYvjF0EM30eD3bdKHYG03lYjB8w",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1761593180,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__gpi",
+      "value": "UID=00000f33d65300ca:T=1727897180:RT=1727897180:S=ALNI_MZZO54FqZQfp2ywkFJPf1FHyl5gOA",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1761593180,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__eoi",
+      "value": "ID=254a00fbcd99d665:T=1727897180:RT=1727897180:S=AA-Afja6gG6Yok45HKWLbWufE0we",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1743449180,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "nps",
+      "value": "{\"currentUrlPath\":\"/en-ca\",\"hasSurveyBeenDisplayed\":false,\"heartBeat\":1727897180,\"isInSampling\":false,\"pageViewCount\":0,\"surveyLastDisplayed\":1759433180}",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1759433180.138651,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AMCVS_D6E638125859683E0A495D2D%40AdobeOrg",
+      "value": "1",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_ecid",
+      "value": "MCMID%7C49921574897993080010504579356986298698",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1762457180.807376,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "everest_g_v2",
+      "value": "g_surferid~Zv2eXAAAAJ0-TANx",
+      "domain": ".everesttech.net",
+      "path": "/",
+      "expires": 1759433180.181177,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUlaZ5D3ZyBb7SMj2K799dDykYAw-yNRQ2Erc9BmXJxvi9s6zGHzP-QDD9EwWHQ",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1762457180.191918,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "dpm",
+      "value": "50400580197269052040555902741777267935",
+      "domain": ".dpm.demdex.net",
+      "path": "/",
+      "expires": 1743449180.86028,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1441588223.1727897180",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AMCV_D6E638125859683E0A495D2D%40AdobeOrg",
+      "value": "179643557%7CMCIDTS%7C19999%7CMCMID%7C49921574897993080010504579356986298698%7CMCAAMLH-1728501980%7C9%7CMCAAMB-1728501980%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1727904380s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20006%7CvVersion%7C5.5.0",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1762457180.250256,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "p_token",
+      "value": "69951eb8392911005b9efd662b000000d59a0000vodqh3vgbtbw13j",
+      "domain": "www.bestbuy.ca",
+      "path": "/",
+      "expires": 1762457180,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "33x_ps",
+      "value": "u%3D212618301915628%3As1%3D1727897180306%3Ats%3D1727897180306",
+      "domain": ".33across.com",
+      "path": "/",
+      "expires": 1759433181.267098,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "Queue-it-c6bffad6-5cdf-45e1-a70b-8dff77626453",
+      "value": "WasRedirected=false&i=638634939803319859",
+      "domain": "queue.bestbuy.ca",
+      "path": "/",
+      "expires": 1727900780.275611,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "Queue-it",
+      "value": "u=8ec42906-e0ae-4574-9193-7b9148724803",
+      "domain": "queue.bestbuy.ca",
+      "path": "/",
+      "expires": 1759433180.275628,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1727897180275.450396405268064433",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1735673183,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.1253497477.1727897180",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1735673180,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "QueueITAccepted-SDFrts345E-V3_prebf012020browse",
+      "value": "EventId%3Dprebf012020browse%26QueueId%3Dc6bffad6-5cdf-45e1-a70b-8dff77626453%26RedirectType%3Dsafetynet%26IssueTime%3D1727897180%26Hash%3D5c086f395aa428b1d84c9d28227f71daedd7d9c9ee8b3c4455d3c421f1d5b103",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1727897780,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "at_check",
+      "value": "true",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "dtm_mSession",
+      "value": "80c97fe46f6d48da8efe73f4f6d2a554",
+      "domain": "www.bestbuy.ca",
+      "path": "/",
+      "expires": 1728501980,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ar_debug",
+      "value": "1",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1730489180.404587,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "eud",
+      "value": "H4sIAAAAAAAA_1vFxGtobmRuYWluaGFgYmEMAIjYH0sQAAAA",
+      "domain": ".rfihub.com",
+      "path": "/",
+      "expires": 1761593180.432033,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "rud",
+      "value": "H4sIAAAAAAAA_-MSNrQ0NzYysLQ0tzQ2NzMxNDAzMxLiM9Q1T8v3jvAPKkrPLw8AAGTESSElAAAA",
+      "domain": ".rfihub.com",
+      "path": "/",
+      "expires": 1761593180.432071,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ruds",
+      "value": "H4sIAAAAAAAA_-MSNrQ0NzYysLQ0tzQ2NzMxNDAzMxLiM9Q1T8v3jvAPKkrPLw8AAGTESSElAAAA",
+      "domain": ".rfihub.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "receive-cookie-deprecation",
+      "value": "1",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1743449180.47096,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "mc",
+      "value": "66fd9e5c-8febd-f591c-5cdf2",
+      "domain": ".quantserve.com",
+      "path": "/",
+      "expires": 1762111580.543196,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sp",
+      "value": "CgkIjd0BEgMQxw0=",
+      "domain": ".quantserve.com",
+      "path": "/",
+      "expires": 1735673180.543249,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "uid",
+      "value": "de27eac7-3025-464f-9aa9-cad87e51a98e",
+      "domain": ".criteo.com",
+      "path": "/",
+      "expires": 1761593180.58751,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "mbox",
+      "value": "session#80c97fe46f6d48da8efe73f4f6d2a554#1727899041|PC#80c97fe46f6d48da8efe73f4f6d2a554.34_0#1791141981",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1762457180.66898,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_abck",
+      "value": "438302C3B42CBEB6460E226302CB9557~-1~YAAQaZUeuDQqJUuSAQAAFpqyTgyP//sAFdLAPesZIkdNl2ZeT9pRA1wrQNkMwldPrN9hii8sAn4DtCo2oHSdggyti+oGcBokvMOc55PQ+VUf/D8gZNpMu6zDx5xgFV3X1bWHWLWD/8Aq9v+DMfVJ0sWvxVTOqfzvdgUL62Odty/NKcogjGiGv6DOi+0eZGdrCSyIL37u2lszJjeD1dUIh024Q+yVJGvC/iW2dUJzlmrSLe+vNckrfTxRH40UNgkE5RAC3SJh9DEve6EEr9n6KAOokUnmITdXIyF5EUBBG2+lfvqBH0JtmWNnDvurFyKc73dWPkTViM6mGGDxkyn6Uaali5AwlboE6zT2uMZGMsCasW5vkr3lYzI5JBHRzo6hizlBQWkbnyRSdVRDRxBosouObb1xiBvYmOP39Nj9SZ6p4vEktiewQMWjoKpD3zYOfNVzVLoeaJb3i9yhsYQwW2ZFrjDIYDlQxbPuJXE=~-1~||0||~1727900779",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1759433180.631271,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_lv",
+      "value": "1727897180651",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1762457180.651592,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_lv_s",
+      "value": "First%20Visit",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1727898980,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_getNewRepeat",
+      "value": "1727897180651-New",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1730489180,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_vnum",
+      "value": "1730444400651%26vn%3D1",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1730444400,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_invisit",
+      "value": "true",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1727898980,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "dextp",
+      "value": "601-1-1727897180193|771-1-1727897180295|1121-1-1727897180396|1175-1-1727897180497|30646-1-1727897180598|139423-1-1727897180700",
+      "domain": ".demdex.net",
+      "path": "/",
+      "expires": 1743449180,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cto_bundle",
+      "value": "22CNLF9pSWdIcWsxTVZvY0JiaHZ5JTJCczhjJTJCS0M5Yk5XcGFISFJEcDMxYVQ5T0c1bVRsYjZJUWpOaENVbHU1UTAzaXJTYWIlMkZYa0FhR3olMkJVciUyQmFCRlp3TUhnRmlqa3A4WEhUbWZYUjlLaWhzM2hxR3VDeDd4TnZaJTJGazRNbU5XaUV3MEFCUSUyRmR0M3ptSkxTcUpZTmRiM29RJTJCM2ZRJTNEJTNE",
+      "domain": ".criteo.com",
+      "path": "/",
+      "expires": 1761593180.733224,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cto_bundle",
+      "value": "0EQlkV9xTnE3MjJVRlA1THVhNmVCRzNIYjIzdFNkWldabzI5MDQzTk9VVDY0TCUyRktqa2Vmd1VNaVRtZnpoazlBckZsWms4UlF1eDkyTnZuTUtHQ1Q3QnV3T1NpUU0lMkI3QUl1UmNSMVFnRUcxM29VWjJGViUyQjduTnFObk4lMkY5Y3NMU3N2TXFDN2lUJTJCVjhLRnU5WGJWemtGTHRnTUVBJTNEJTNE",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1762061180,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "A3",
+      "value": "d=AQABBFye_WYCEI8IQLBHWdw7-4wjbEEuS9AFEgEBAQHv_mYHZyXUxyMA_eMAAA&S=AQAAAldIEK4v7AGS0QEFkrihfrw",
+      "domain": ".yahoo.com",
+      "path": "/",
+      "expires": 1759454780.830589,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "s_cc",
+      "value": "true",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDSYNC",
+      "value": "19cu~2l17",
+      "domain": ".analytics.yahoo.com",
+      "path": "/",
+      "expires": 1759433180.83057,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ar_debug",
+      "value": "1",
+      "domain": "measurement-api.criteo.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_5DXH6YB1G3",
+      "value": "GS1.1.1727897180.1.1.1727897183.57.0.0",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "value": "2024-10-02T19:26:23.197Z",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1759433183,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "rxvt",
+      "value": "1727898983202|1727897179825",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "dtPC",
+      "value": "-39$497179823_337h21vTAJKAKPTQPJIKMPKAFJRCRCCVKMPGCDW-0e0",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isGpcEnabled=0&datestamp=Wed+Oct+02+2024+12%3A26%3A23+GMT-0700+(Pacific+Daylight+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=2a9459a9-a9fd-43d8-8463-286644b191fd&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&intType=3",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1759433183,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_tslv",
+      "value": "1727897183206",
+      "domain": ".bestbuy.ca",
+      "path": "/",
+      "expires": 1762457183.206703,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.bestbuy.ca",
+      "localStorage": [
+        {
+          "name": "AA_pagePathingCount",
+          "value": "1"
+        },
+        {
+          "name": "cto_bundle",
+          "value": "0EQlkV9xTnE3MjJVRlA1THVhNmVCRzNIYjIzdFNkWldabzI5MDQzTk9VVDY0TCUyRktqa2Vmd1VNaVRtZnpoazlBckZsWms4UlF1eDkyTnZuTUtHQ1Q3QnV3T1NpUU0lMkI3QUl1UmNSMVFnRUcxM29VWjJGViUyQjduTnFObk4lMkY5Y3NMU3N2TXFDN2lUJTJCVjhLRnU5WGJWemtGTHRnTUVBJTNEJTNE"
+        },
+        {
+          "name": "tgt:tlm:upper",
+          "value": "1"
+        },
+        {
+          "name": "tgt:tlm:0",
+          "value": "{\"execution\":226.3,\"parsing\":0.7,\"request\":{\"timeToFirstByte\":150.9,\"download\":72.9,\"responseSize\":19408},\"telemetryServerToken\":\"awM7C4ni0mTNwDJUuXZYa0ciTOO5hxQiq9g6YqD8Gao=\",\"mode\":\"local\",\"features\":{\"executeMboxCount\":16,\"decisioningMethod\":\"server-side\"},\"requestId\":\"ed9b84238a9a4db3bb32bfcb76bea2c8\",\"timestamp\":1727897180617}"
+        },
+        {
+          "name": "AA_previousPageName",
+          "value": "home"
+        },
+        {
+          "name": "AA_previousTA",
+          "value": ""
+        },
+        {
+          "name": "ak_ax",
+          "value": "-1"
+        },
+        {
+          "name": "AA_previousPageType",
+          "value": "homepage"
+        },
+        {
+          "name": "goog:cached:topics",
+          "value": "[null,1727897180080,3]"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1727897180259"
+        },
+        {
+          "name": "toggles",
+          "value": "[]"
+        },
+        {
+          "name": "hashedAccountID",
+          "value": ""
+        },
+        {
+          "name": "AA_previousCategory",
+          "value": "home"
+        },
+        {
+          "name": "ak_a",
+          "value": "438302C3B42CBEB6460E226302CB9557"
+        },
+        {
+          "name": "tgt:tlm:1",
+          "value": "{\"execution\":280.1,\"parsing\":0,\"request\":{\"timeToFirstByte\":226.5,\"download\":0.1,\"responseSize\":1280},\"telemetryServerToken\":\"rPEFq/5x+VtJHwNlhEZSBtYkWAlK351vsKGf1ZXeJj0=\",\"mode\":\"local\",\"features\":{\"executePageLoad\":true,\"decisioningMethod\":\"server-side\"},\"requestId\":\"4d0fb52d73064f1fba4ea083d111acf1\",\"timestamp\":1727897180668}"
+        },
+        {
+          "name": "lastExternalReferrer",
+          "value": "empty"
+        }
+      ]
+    }
+  ]
+}
