@@ -1,5 +1,7 @@
 // @ts-check
+require('dotenv').config({ path: `./config/.env.${process.env.NODE_ENV || 'development'}` });
 const { defineConfig, devices } = require('@playwright/test');
+
 
 /**
  * Read environment variables from file.
@@ -28,6 +30,7 @@ module.exports = defineConfig({
     // baseURL: 'http://127.0.0.1:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
+    
     trace: 'on-first-retry',
     baseURL: process.env.BASE_URL,
     headless: false,

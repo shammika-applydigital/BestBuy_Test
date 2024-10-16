@@ -10,25 +10,35 @@ class HomePage extends BasePage {
     this.bestBuyLogo = page.getByLabel('Best Buy', { exact: true });
     this.shopButton = page.getByRole('button', { name: 'Shop' });
     this.shopByCategoryTitle = page.getByRole('heading', { name: 'Shop by Category' });
+    this.firstLink = page.locator('a').first(); // First available link
   }
 
-  async selectCategory(category, subCategory, productName) {
+  async navigate(path = '') {
+    await this.page.goto(path);
+  }
+
+  async selectFirstAvailableProduct(category, subCategory, productType) {
     try {
       await this.isBestBuyLogoVisible();
       await this.isShopButtonEnabled();
       await this.clickShopButton();
       await this.isShopByCategoryTitleVisible();
-      await this.isMainCategoryTitleVisible(category);
+
+      // Navigate to category and sub-category
       await this.clickMainCategorySelected(category);
-      await this.isSubCategoryTitleVisible(subCategory);
       await this.clickSubCategorySelected(subCategory);
-      await this.isProductNameTitleVisible(productName);
-      await this.clickProductNameSelected(productName);
+      await this.isProductNameTitleVisible(productType);
+      await this.clickProductNameSelected(productType);
+
+
+
+     // console.log(`Selected product: ${await firstProduct.textContent()}`);
     } catch (error) {
-      console.error(`Error in selecting category: ${category}, subCategory: ${subCategory}, product: ${productName}`, error);
+      console.error(`Error selecting product in ${category} > ${subCategory} > ${productType}:`, error);
       throw error;
     }
   }
+
 
   async isBestBuyLogoVisible() {
     await expect(this.bestBuyLogo).toBeVisible({ timeout: 10000 });
@@ -64,6 +74,7 @@ class HomePage extends BasePage {
   }
 
   async clickSubCategorySelected(subCategory) {
+    
     const subCategoryElement = this.page.getByRole('link', { name: subCategory, exact: true });
     await subCategoryElement.waitFor({ state: 'visible', timeout: 10000 });
     await subCategoryElement.click();
@@ -79,6 +90,8 @@ class HomePage extends BasePage {
     await product.waitFor({ state: 'visible', timeout: 10000 });
     await product.click();
   }
+  
+
 }
 
 module.exports = HomePage;

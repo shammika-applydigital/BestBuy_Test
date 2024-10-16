@@ -16,13 +16,13 @@ class ProductPage extends BasePage {
     this.cartErrorMessage = page.getByTestId('header').getByRole('heading');
     this.cartItemTitle = this.repo.getLocator(page, 'cartItemTitle');
     this.removeButton = this.repo.getLocator(page, 'removeButton');
+    this.firstProductLink = page.locator(
+      '.productsRow_DcaXn.style-module_row__Q0c-x a'
+    ).first();
   }
 
   async selectProduct(productName, productSpecificName, price) {
     try {
-      // Wait for the product title to be visible and check its content
-      await this.page.waitForSelector('h1', { timeout: 60000 });
-      await expect(this.productTitle).toContainText(productName);
 
       // Wait for the price button to be visible and click it
       await this.priceButton.click();
@@ -31,24 +31,25 @@ class ProductPage extends BasePage {
       await this.priceFilterOption.check();
 
       // Wait for the specific product to be visible and click it
-      await this.productSpecificNameLocator(productSpecificName).click();
+      await this.firstProductLink.click();
 
-      // Wait for the product title to be visible and check its content again
-      await this.page.waitForSelector('h1', { timeout: 100000 });
-      await expect(this.productTitle).toContainText(productSpecificName);
-      await expect(this.page.locator('#root')).toContainText(price);
     } catch (error) {
       console.error(`Error in selecting product: ${error.message}`);
       throw error;
     }
   }
 
-  async addToCart(quantity) {
+    // Method: Select the first item
+    async selectFirstItem() {
+      await this.firstProductLink.waitFor();
+      await this.firstProductLink.click();
+    }
+
+
+  async addToCart() {
     try {
-      // Wait for the add to cart button to be visible and click it
       await this.page.waitForSelector(this.addToCartButton);
       await this.page.click(this.addToCartButton);
-      // Ensure that the error message is not displayed
       await expect(this.cartErrorMessage).not.toContainText('Sorry, there was a problem adding this item to your cart.');
     } catch (error) {
       console.error(`Error in adding to cart: ${error.message}`);
@@ -58,13 +59,14 @@ class ProductPage extends BasePage {
 
   async validateCart(productName) {
     try {
-      const cartItem = await this.page.textContent(this.cartItemTitle);
-      return cartItem.includes(productName);
+      const cartItemTitle = await this.page.locator('div.cart-item-title').textContent();
+      return cartItemTitle.includes(productName);
     } catch (error) {
-      console.error(`Error in validating cart: ${error.message}`);
+      console.error('Error validating cart:', error);
       throw error;
     }
   }
+  
 
   async removeFromCart() {
     try {

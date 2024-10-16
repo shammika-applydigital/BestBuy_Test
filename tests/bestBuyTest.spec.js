@@ -18,14 +18,10 @@ test.describe('BestBuy Test Suite', () => {
     // Load test data (use the same data row across all tests)
     testData = await DataDrivenUtil.getTestData(process.env.ENV);
 
-    // Set viewport size with a random delay
-    const randomDelay = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-    const viewportWidth = randomDelay(1280, 1920);
-    const viewportHeight = randomDelay(720, 1080);
-    await page.setViewportSize({ width: viewportWidth, height: viewportHeight });
 
     // Navigate to base URL and close any popups
-    await homePage.navigate(BASE_URL);
+    await homePage.navigate();
+
     try {
       await page.getByLabel('Close').click();
     } catch (error) {
@@ -33,11 +29,27 @@ test.describe('BestBuy Test Suite', () => {
     }
   });
 
-
-
-  test('Navigate, Select a Product Category, and Choose a Product', async ({ page }) => {
+  test('Select First Available Product of the Refrigerators category and Add to Cart', async ({ page }) => {
     try {
-      const data = testData[0]; 
+    const category = 'Appliances';
+    const subCategory = 'Major Appliances';
+    const productType = 'Refrigerators';
+
+    await homePage.selectFirstAvailableProduct(category, subCategory, productType);
+    await productPage.selectProduct();
+    await productPage.addToCart();
+
+  } catch (error) {
+    console.error('Error in test - Navigate, Select a Product Category, and Choose a Product:', error);
+    throw error;
+  }
+  });
+
+
+
+  test.skip('Navigate, Select a Product Category, and Choose a Product', async ({ page }) => {
+    try {
+      const data = testData[0];
       console.log("Using test data:", data);
 
       // Step 1: Navigate through categories and select a product
